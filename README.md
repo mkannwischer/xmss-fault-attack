@@ -24,21 +24,21 @@ We build upon the XMSS libof Stefan-Lukas Gazdag and Denis Butin (http://www.squ
 - [`./experiment_1.sh`](experiment_1.sh) will produce the data for Figure 6.3 (approx. runtime 2 days single-threaded)
 - [`./experiment_2.sh`](experiment_2.sh) will produce the data for Figure 6.4 (approx. runtime 5 days single-threaded)
 - [`./experiment_3.sh`](experiment_3.sh) will produce the data for Figure 6.5 (approx. runtime 7 days single-threaded)
-- Note: The actual experiments have been conducted slighlty
+- Note: The actual experiments have been conducted slighlty different, since we used multiple threads and machines. 
 
 ## Reproducing Plots
  - The data obtained from our experiments is included in this repository
- - The python script `plots/create_plots.py` can be used to reproduce the plots in the thesis
- - it depends on http://www.numpy.org/ which needs to be installed
+ - The python script [`plots/create_plots.py`](plots/create_plots.py) can be used to reproduce the plots in the thesis
+ - It depends upon http://www.numpy.org/ which needs to be installed
 
 ## Using the Code
  - Feel free to use, modify, and redistribute the code (according to the license)
  - `xmss/` contains the XMSS library by Stefan-Lukas Gazdag and Denis Butin (http://www.square-up.org/downloads/xmss_2016-07-26.tar.gz)
   - We added a parameter `faulty` to `xmss_mt_sign` in `xmssmt_draft.o` and `xmssmt_draft.c` which allows the creation of faulty signatures
   - The rest is as published by Gazdag and Butin
- - `data/` is used to hold the experiment results
- - `plots/` contains the script to reproduce the thesis plots
- - `attack.c` entry point of the attack containing the majority of the attack
- - `helper.c` helper procedures that easy the handling of recovered chain values
- - `recover_wots_pk.c` contains code that helps to recover a W-OTS+ public key from a valid XMSS^MT signature
- - `forge_xmssmt_signature.c` contains all code that is required to create a XMSS^MT forgery using a recovered partial W-OTS+ secret key
+ - [`data/`](data/) is used to hold the experiment results
+ - [`plots/`](plots/) contains the script to reproduce the thesis plots
+ - [`attack.c`](attack.c) entry point of the attack containing the majority of the attack
+ - [`helper.c`](helper.c) helper procedures that easy the handling of recovered chain values
+ - [`recover_wots_pk.c`](recover_wots_pk.c) contains code that helps to recover a W-OTS+ public key from a valid XMSS^MT signature
+ - [`forge_xmssmt_signature.c`](forge_xmssmt_signature.c) contains all code that is required to create a XMSS^MT forgery using a recovered partial W-OTS+ secret key
