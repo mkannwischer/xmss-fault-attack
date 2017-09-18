@@ -39,6 +39,6 @@ We build upon the XMSS libof Stefan-Lukas Gazdag and Denis Butin (http://www.squ
  - [`data/`](data/) is used to hold the experiment results
  - [`plots/`](plots/) contains the script to reproduce the thesis plots
  - [`attack.c`](attack.c) entry point of the attack containing the majority of the attack
- - [`helper.c`](helper.c) helper procedures that easy the handling of recovered chain values
+ - [`helper.c`](helper.c) procedures that help with the handling of chain values
  - [`recover_wots_pk.c`](recover_wots_pk.c) contains code that helps to recover a W-OTS+ public key from a valid XMSS^MT signature
  - [`forge_xmssmt_signature.c`](forge_xmssmt_signature.c) contains all code that is required to create a XMSS^MT forgery using a recovered partial W-OTS+ secret key
