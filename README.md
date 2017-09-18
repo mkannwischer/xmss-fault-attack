@@ -21,9 +21,9 @@ We build upon the XMSS libof Stefan-Lukas Gazdag and Denis Butin (http://www.squ
 - The `--silent` option disables all console logs except the results
 
 ## Performing Experiments
-- `./experiment_1.sh` will produce the data for Figure 6.3 (approx. runtime 2 days single-threaded)
-- `./experiment_2.sh` will produce the data for Figure 6.4 (approx. runtime 5 days single-threaded)
-- `./experiment_3.sh` will produce the data for Figure 6.5 (approx. runtime 7 days single-threaded)
+- [`./experiment_1.sh`](experiment_1.sh) will produce the data for Figure 6.3 (approx. runtime 2 days single-threaded)
+- [`./experiment_2.sh`](experiment_2.sh) will produce the data for Figure 6.4 (approx. runtime 5 days single-threaded)
+- [`./experiment_3.sh`](experiment_3.sh) will produce the data for Figure 6.5 (approx. runtime 7 days single-threaded)
 - Note: The actual experiments have been conducted slighlty
 
 ## Reproducing Plots
