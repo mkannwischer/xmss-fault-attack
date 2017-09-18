@@ -33,7 +33,7 @@ We build upon the XMSS libof Stefan-Lukas Gazdag and Denis Butin (http://www.squ
 
 ## Using the Code
  - Feel free to use, modify, and redistribute the code (according to the license)
- - `xmss/` contains the XMSS library by Stefan-Lukas Gazdag and Denis Butin (http://www.square-up.org/downloads/xmss_2016-07-26.tar.gz)
+ - [`xmss/`](xmss/) contains the XMSS library by Stefan-Lukas Gazdag and Denis Butin (http://www.square-up.org/downloads/xmss_2016-07-26.tar.gz)
   - We added a parameter `faulty` to `xmss_mt_sign` in `xmssmt_draft.o` and `xmssmt_draft.c` which allows the creation of faulty signatures
   - The rest is as published by Gazdag and Butin
  - [`data/`](data/) is used to hold the experiment results
