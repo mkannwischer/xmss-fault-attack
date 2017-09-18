@@ -2,3 +2,4 @@
 *.gch
 attack
 *.a
+xmss/test/xmss_test
