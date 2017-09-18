@@ -4,7 +4,7 @@
 
 # note: the actual data was obtained differently (different sample size for each value of p)
 
-for i in 2 4 8 16 24 32; do
+for i in 2 4 8 16 24 32;
 do
   NOW=$(date +"%Y_%m_%d_%H_%M_%S")
   file="data/P_NOT1/P_$i/$(hostname)_$NOW.log"
