@@ -89,7 +89,7 @@ void dump_secret_key(){
 
 int main(int argc, char** argv){
   if(argc < 5){
-    printf("Usage: attack n h d [--silent]\n");
+    printf("Usage: attack n h d p [--silent]\n");
     printf("\tn : security parameter (32 for 256 bits, 64 for 512 bits)\n");
     printf("\th : total height of the hyper tree (e.g. 10)\n");
     printf("\td : number of tree layers (e.g. 5)\n");
