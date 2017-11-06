@@ -1,5 +1,6 @@
 *.o
 *.gch
-attack
+attack1
+attack2
 *.a
 xmss/test/xmss_test
