@@ -190,6 +190,8 @@ int main(int argc, char** argv){
         attack_result = 2; // error, should not happen
         if(!silent) printf(RED "XMSS^MT Signature Verification for forged signature failed!\n THIS SHOULD NEVER HAPPEN!" RESET);
       }
+    } else {
+      attack_result = 1; // not enough secret key parts
     }
     if(!silent && forgingResult != 0) printf(RED " FAILED\n" RESET);
   }
