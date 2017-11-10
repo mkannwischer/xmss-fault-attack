@@ -60,7 +60,7 @@ def plot_lines(x, exp, theo, fname):
 def prob(W, ell,q):
     W = float(W)
     ell = float(ell)
-    q = float(q)
+    q = float(q+1)
     s = 0
     for x in range(0,int(W)):
        s += 1 - ((W-(x+1))/W)**(q+1)
