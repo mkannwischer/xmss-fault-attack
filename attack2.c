@@ -186,6 +186,7 @@ int main(int argc, char** argv){
       if(verificationResult == 0){
         attack_result = 0; // successful
         if(!silent) printf(GREEN "XMSS^MT Signature Verification for forged signature successful!\n"RESET );
+        break;
       } else {
         attack_result = 2; // error, should not happen
         if(!silent) printf(RED "XMSS^MT Signature Verification for forged signature failed!\n THIS SHOULD NEVER HAPPEN!" RESET);
