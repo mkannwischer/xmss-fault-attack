@@ -6,7 +6,7 @@ A detailed description is available in my master thesis, which will be published
 
 ## License
 Code delivered in this package by Matthias Julius Kannwischer is published under BSD (2-clause) license. Actual information about the specific license is to be found in each source code file.
-We build upon the XMSS libof Stefan-Lukas Gazdag and Denis Butin (http://www.square-up.org/downloads/xmss_2016-07-26.tar.gz).
+We build upon the XMSS library of Stefan-Lukas Gazdag and Denis Butin (http://www.square-up.org/downloads/xmss_2016-07-26.tar.gz).
 
 ## Simulating the attack
 - `make` should build the project including the XMSS library
